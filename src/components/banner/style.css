@@ -1,0 +1,99 @@
+#banner {
+  color: #3D3A33;
+  background-color: #F9F9EF;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  z-index: 21;
+}
+
+
+  #banner .content {
+    display: inline-block;
+    margin-right: 1%;
+    max-width: 95%;
+    padding: 6em;
+    position: relative;
+    text-align: right;
+    vertical-align: middle;
+    z-index: 1;
+  }
+
+    #banner .content header {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+      #banner .content header h1 {
+        font-size: 2.5em;
+        margin: 0;
+        font-family: 'Fredoka One';
+      }
+
+      #banner .content header p {
+        margin: 0.5em 0 0 0;
+        top: 0;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+    #banner .content .image {
+      display: inline-block;
+      height: 18em;
+      margin-left: 3em;
+      vertical-align: middle;
+      width: 18em;
+      background-image: url("./images/logo-300x300.png");
+      background-position: left top;
+      background-size: contain;
+    }
+
+/* Goto Next */
+#more {
+  display: block;
+  cursor: pointer !important;
+  font-size: 2.5em;
+  -webkit-animation: arrow-movement 3s ease-in-out infinite;
+            animation: arrow-movement 3s ease-in-out infinite;
+}
+
+#more:hover {
+  color: #3D3A33;
+}
+
+#more:visited {
+  color: #3D3A33;
+}
+
+#more:active {
+  color: #3D3A33;
+}
+
+#more:link {
+  color: #3D3A33;
+}
+
+@-webkit-keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    top: 45%;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes arrow-movement {
+  0% {
+    opacity: 0;
+    top: 45%;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "agt-nantes-2018",
+  "short_name": "agt-nantes-2018",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f9f9ef",
+  "theme_color": "#688222",
+  "icons": [
+    {
+      "src": "/assets/icons/agile-nantes-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/agile-nantes-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

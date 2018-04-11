@@ -1,0 +1,31 @@
+#mapWithCursor {
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  background-image: url(./images/map-with-cursor.png);
+  background-size: cover;
+}
+
+  #mapWithCursor div.blocknote {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    margin: 0;
+    padding: 40px 40px 40px 40px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+  }
+
+  #mapWithCursor div.blocknote p {
+    padding-bottom: 20px;
+  }
+
+  #mapWithCursor div.blocknote p.siteAndTime {
+    font-weight: bold;
+  }
+
+  #mapWithCursor div.blocknote .locationIcon {
+    float: right;
+    font-size: 5em;
+  }

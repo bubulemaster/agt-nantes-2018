@@ -1,0 +1,12 @@
+#buy {
+  position: relative;
+  text-align: center;
+  background-color: #F9F9EF;
+  color: #3D3A33;
+  font-family: 'Open Sans', sans-serif;
+}
+    #buy header h1 {
+      font-weight: bold;
+      font-size: 2em;
+      padding: 5vw 0 5vw 0;
+    }

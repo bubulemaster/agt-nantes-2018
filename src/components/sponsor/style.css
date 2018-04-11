@@ -1,0 +1,12 @@
+#sponsor {
+  position: relative;
+  text-align: center;
+  background-color: #BDB29E;
+  color: #3D3A33;
+  font-family: 'Open Sans', sans-serif;
+}
+    #sponsor header h1 {
+      font-weight: bold;
+      font-size: 2em;
+      padding: 5vw 0 5vw 0;
+    }
