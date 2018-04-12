@@ -28,7 +28,7 @@ function SpeakersList(props) {
 	speakers.forEach(speaker => listItems.push(<OneSpeaker name={speaker.name} subtitle={speaker.subtitle} image={speaker.image}/>))
 
   return (
-		<div class={[grillage.autogrid, style.speakerList].join(' ')}>
+		<div class={['grid-3', style.speakerList].join(' ')}>
     	{listItems}
 		</div>
   )

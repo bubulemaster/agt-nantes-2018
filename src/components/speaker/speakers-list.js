@@ -4,6 +4,7 @@ import ChristopheAddinquyImage from './images/speakers/christophe_addinquy.jpg'
 import EmmanuelGaillotImage from './images/speakers/emmanuel_gaillot.jpg'
 import JeanPhilippeGouigouxImage from './images/speakers/jean-philippe_gouigoux.jpg'
 import MarcDugueImage from './images/speakers/marc_dugue.jpg'
+import YouImage from './images/speakers/avatar_girl.jpg'
 
 export default [
   {
@@ -35,5 +36,10 @@ export default [
     name: 'Marc Dugue',
     subtitle: 'Indépendant',
     image: MarcDugueImage
+  },
+  {
+    name: 'Vous ?',
+    subtitle: '',
+    image: YouImage
   }
 ]
