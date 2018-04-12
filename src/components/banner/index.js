@@ -1,6 +1,8 @@
 import { Component } from 'preact'
+import CountUp from 'react-countup'
 
 import style from './style'
+import grillage from '../grillade-grid'
 
 import Timeline from 'async!../timeline'
 
@@ -23,8 +25,26 @@ export default class Banner extends Component {
 		        4, rue Alfred Kastler - La Chantrerie<br />
 		        44307 Nantes cedex 3</p>
 		      </header>
+					
 		      <div class={style.image}>&nbsp;</div>
+
+					<div class={[style.stats, grillage.autogrid].join(' ')}>
+						<div>
+							<CountUp start={0} end={280} redraw={true} duration={3} className={style.counter} /> <br />
+							Participants
+						</div>
+						<div>
+							<CountUp start={0} end={25} redraw={true} duration={5} className={style.counter} /> <br />
+							Conférences
+						</div>
+						<div>
+							<CountUp start={0} end={50} redraw={true} duration={4} className={style.counter} /> <br />
+							Présentateurs
+						</div>
+					</div>
 		    </div>
+
+
 
 		    <a id={style.more} href="#me">
 					<FontAwesomeIcon icon={["fas", "angle-down"]} />

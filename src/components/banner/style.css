@@ -47,6 +47,19 @@
       background-size: contain;
     }
 
+    #banner .content .stats {
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2em;
+      padding: 20vh 0 0 0;
+    }
+
+    #banner .content .stats .counter {
+      font-weight: bold;
+      color: #ABCF4B;
+      font-size: 3em;
+    }
+
 /* Goto Next */
 #more {
   display: block;
