@@ -1,18 +1,7 @@
 #speaker {
-  position: relative;
-  text-align: center;
   background-color: #3D3A33;
   color: #F9F9EF;
-  font-family: 'Open Sans', sans-serif;
-  padding: 5vw 0 5vw 0;
 }
-
-  #speaker header h1 {
-    font-weight: bold;
-    font-size: 2em;
-    padding: 0 0 3vw 0;
-    text-align: center;
-  }
 
   .speakerList {
     padding: 0 3vw 0 3vw;

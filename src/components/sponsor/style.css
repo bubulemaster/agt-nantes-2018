@@ -1,16 +1,6 @@
 #sponsor {
-  position: relative;
-  text-align: center;
-  background-color: #FFFFFF;
   color: #3D3A33;
-  font-family: 'Open Sans', sans-serif;
-  padding-bottom: 5vw;
 }
-    #sponsor header h1 {
-      font-weight: bold;
-      font-size: 2em;
-      padding: 5vw 0 5vw 0;
-    }
 
     .btn {
       -moz-border-radius:4px;
@@ -60,18 +50,15 @@
       height: 240px;
       margin-left: auto;
       margin-right: auto;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
     }
 
     .gfi {
       background-image: url('./images/sponsors/gfi.png');
-      background-size: contain;
-      background-position: center center;
-      background-repeat: no-repeat;
     }
 
     .imt {
       background-image: url('./images/sponsors/imt.png');
-      background-size: contain;
-      background-position: center center;
-      background-repeat: no-repeat;
     }

@@ -12,7 +12,7 @@ export default class Buy extends Component {
 					</header>
 				</div>
 
-				TODO
+				Encore un peu de patience ...
 			</section>
 		)
 	}
