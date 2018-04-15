@@ -58,6 +58,9 @@ yarn run dev
 # build for production with minification
 yarn run build
 
+# build for production with minification without map and ssr file
+yarn run prod
+
 # test the production build locally
 yarn run serve
 ```
