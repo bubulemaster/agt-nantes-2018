@@ -1,27 +1,30 @@
 import { Component } from 'preact'
+import { Router } from 'preact-router'
 
 import './style'
 
-import Banner from 'async!../banner'
-import Whatis from 'async!../whatis'
-import Map from 'async!../map'
-import Speaker from 'async!../speaker'
-import Sponsor from 'async!../sponsor'
-import Buy from 'async!../buy'
-import Footer from 'async!../footer'
+import Home from 'async!../home'
+import Credits from 'async!../credits'
+
+if (module.hot) {
+	require('preact/debug');
+}
 
 export default class App extends Component {
+	/** Gets fired when the route changes.
+	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
+	 *	@param {string} event.url	The newly routed URL
+	 */
+	handleRoute = e => {
+		this.currentUrl = e.url
+	}
+
 	render() {
 		return (
-			<div>
-				<Banner />
-				<Whatis />
-				<Map />
-				<Speaker />
-				<Sponsor />
-				<Buy />
-				<Footer />
-			</div>
+			<Router onChange={this.handleRoute}>
+				<Home path="/" />
+				<Credits path="/credits" />
+			</Router>
 		)
 	}
 }

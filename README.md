@@ -21,6 +21,7 @@ This site is build around webcomponent that you can found in `src/components`:
  * `sponsor` is the sponsor showcase
  * `timeline` is subpart of `banner` page. It's specifically for Agt Nantes 2018
  * `whatis` is where you explain what is your event
+ * `credits` is where you add mention for photo or other copyright
 
 ## Speakers section
 
@@ -44,7 +45,20 @@ To benefit of `webpack` optimization, image is not a simple link. It's javascrip
 
 ## Sponsors section
 
-TODO
+In `src/components/sponsor` folder, you can found `sponsors-list.js` file:
+
+```javascript
+export default [
+  {
+    cssclass: 'gfi'
+  },
+  {
+    cssclass: 'imt'
+  }
+]
+```
+
+this is list of CSS class to be responsive.
 
 ## CLI Commands
 

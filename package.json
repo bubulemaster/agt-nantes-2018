@@ -35,7 +35,7 @@
     "@fortawesome/react-fontawesome": "^0.0.18",
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0",
-    "preact-router": "^2.5.7",
+    "preact-router": "^2.6.0",
     "react-countup": "^3.0.3"
   },
   "jest": {

@@ -18,7 +18,9 @@ export default class Footer extends Component {
 					<li><a href="https://groups.google.com/group/agilenantes" class="icon"><FontAwesomeIcon icon={["far", "envelope"]} /></a></li>
 				</ul>
 				<ul class={style.copyright}>
-					<li>&copy; Agile Nantes. Tous droits réservés.</li><li>Download <a href="https://github.com/bubulemaster/agt-nantes-2018">source code</a> of this website</li>
+					<li>&copy; Agile Nantes. Tous droits réservés.</li>
+					<li>Download <a href="https://github.com/bubulemaster/agt-nantes-2018">source code</a> of this website</li>
+					<li><a href="./credits">Crédits</a></li>
 				</ul>
 			</footer>
 		)
