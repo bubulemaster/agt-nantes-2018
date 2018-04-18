@@ -8,5 +8,6 @@ export default [
   'https://commons.wikimedia.org/wiki/File:Fishbowl_diagram_172.png',
   'https://pixabay.com/fr/ninja-des-donn%C3%A9es-de-s%C3%A9curit%C3%A9-pc-1507457/',
   'https://commons.wikimedia.org/wiki/File:Masterclass_logo.svg',
-  'https://pixabay.com/fr/nuit-cam%C3%A9ra-photographe-canon-1927265/'
+  'https://pixabay.com/fr/nuit-cam%C3%A9ra-photographe-canon-1927265/',
+  'https://pixabay.com/fr/monnaie-richesse-finances-%C3%A9pargne-3077900/'
 ]

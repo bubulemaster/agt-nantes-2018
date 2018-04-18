@@ -1,0 +1,53 @@
+#extrapage {
+    font-family: 'Open Sans', sans-serif;
+}
+
+  #extrapage header {
+    width: 100%;
+    height: 392px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .imageHeader {
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .imageHeader h1 {
+    font-weight: bold;
+    font-size: 4em;
+    color: #ffffff;
+    position: absolute;
+    top: 98px;
+    left: 160px;
+  }
+
+  .content {
+    padding: 80px 80px 80px 80px;
+  }
+
+  .content ul {
+    list-style-type: disc;
+    padding: 40px 0 40px 40px;
+    line-height: 26px;
+  }
+
+  .home {
+    padding-bottom: 40px;
+    color: inherit;
+  }
+
+  .content a, .content a:visited {
+    color: #688222;
+    text-decoration: dotted underline;
+  }
+
+  .content a:hover {
+    text-decoration: none;
+    color: #688222;
+  }
