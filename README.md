@@ -22,26 +22,26 @@ This site is build around webcomponent that you can found in `src/components`:
  * `timeline` is subpart of `banner` page. It's specifically for Agt Nantes 2018
  * `whatis` is where you explain what is your event
  * `credits` is where you add mention for photo or other copyright
+ * `becomesponsor` is page to be come a sponsor
+ * `extrapage` common component use by credits and becomesponsor components
 
 ## Speakers section
 
 In `src/components/speaker` folder, you can found `speakers-list.js` file:
 
 ```javascript
-import AlexandreBoutinImage from './images/speakers/alexandre_boutin.jpg'
-
 export default [
   {
     name: 'Alexandre Boutin',
     subtitle: 'AgileToYou',
-    image: AlexandreBoutinImage
+    cssclass: 'alexandreBoutin'
   }
 ]
 ```
 
 this is list of speaker with `name`, `subtitle` (in our case firm name) and `image`.
 
-To benefit of `webpack` optimization, image is not a simple link. It's javascript import. All images are stored in `src/components/speaker/images.speakers`
+To benefit of `webpack` optimization, image is not a simple link. It's javascript import. All images are stored in `src/components/speaker/images/speakers`
 
 ## Sponsors section
 
