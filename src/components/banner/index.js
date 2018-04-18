@@ -6,11 +6,6 @@ import grillage from '../grillade-grid'
 
 import Timeline from 'async!../timeline'
 
-// Font-Awesome
-import { faArrowDown } from '@fortawesome/fontawesome-free-solid'
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-//fontawesome.library.add(faCoffee, faCog, faSpinner, faQuoteLeft, faSquare, faCheckSquare)
-
 export default class Banner extends Component {
 	render() {
 		return (
@@ -25,7 +20,7 @@ export default class Banner extends Component {
 		        4, rue Alfred Kastler - La Chantrerie<br />
 		        44307 Nantes cedex 3</p>
 		      </header>
-					
+
 		      <div class={style.image}>&nbsp;</div>
 
 					<div class={[style.stats, grillage.autogrid].join(' ')}>
@@ -43,12 +38,6 @@ export default class Banner extends Component {
 						</div>
 					</div>
 		    </div>
-
-
-
-		    <a id={style.more} href="#me">
-					<FontAwesomeIcon icon={["fas", "angle-down"]} />
-		    </a>
 		  </section>
 		)
 	}

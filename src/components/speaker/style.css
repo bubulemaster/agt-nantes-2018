@@ -4,26 +4,54 @@
 }
 
   .speakerList {
-    padding: 0 3vw 0 3vw;
+
   }
 
   .speaker  {
-    padding-top: 1vw;
+    padding-top: 16px;
   }
 
     .speaker .speakerImg {
       width: 140px;
       height: 140px;
       margin: 0 auto;
-      border-radius:50%;
+      border-radius: 50%;
     }
 
     .speaker .name {
       font-size: 1.5em;
-      padding: 1em 0 1em 0;
+      padding: 24px 0 24px 0;
     }
 
     .speaker .subtitle {
       font-weight: bold;
-      color: #3D3A33;
+      color: #ABCF4B;
+    }
+
+    .alexandreBoutin {
+      background-image: url('./images/speakers/alexandre_boutin.jpg');
+    }
+
+    .cedricBodin {
+      background-image: url('./images/speakers/cedric_bodin.jpg');
+    }
+
+    .christopheAddinquy {
+      background-image: url('./images/speakers/christophe_addinquy.jpg');
+    }
+
+    .emmanuelGaillot {
+      background-image: url('./images/speakers/emmanuel_gaillot.jpg');
+    }
+
+    .jeanPhilippeGouigoux {
+      background-image: url('./images/speakers/jean-philippe_gouigoux.jpg');
+    }
+
+    .marcDugue {
+      background-image: url('./images/speakers/marc_dugue.jpg');
+    }
+
+    .you {
+      background-image: url('./images/speakers/avatar_girl.jpg');
     }

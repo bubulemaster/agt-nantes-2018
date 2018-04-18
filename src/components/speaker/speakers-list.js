@@ -1,45 +1,37 @@
-import AlexandreBoutinImage from './images/speakers/alexandre_boutin.jpg'
-import CedricBodinImage from './images/speakers/cedric_bodin.jpg'
-import ChristopheAddinquyImage from './images/speakers/christophe_addinquy.jpg'
-import EmmanuelGaillotImage from './images/speakers/emmanuel_gaillot.jpg'
-import JeanPhilippeGouigouxImage from './images/speakers/jean-philippe_gouigoux.jpg'
-import MarcDugueImage from './images/speakers/marc_dugue.jpg'
-import YouImage from './images/speakers/avatar_girl.jpg'
-
 export default [
   {
     name: 'Alexandre Boutin',
     subtitle: 'AgileToYou',
-    image: AlexandreBoutinImage
+    cssclass: 'alexandreBoutin'
   },
   {
     name: 'Cédric Bodin',
     subtitle: 'Fenikso',
-    image: CedricBodinImage
+    cssclass: 'cedricBodin'
   },
   {
     name: 'Christophe_Addinquy',
     subtitle: 'Zenika',
-    image: ChristopheAddinquyImage
+    cssclass: 'christopheAddinquy'
   },
   {
     name: 'Emmanuel Gaillot',
     subtitle: 'ut/7',
-    image: EmmanuelGaillotImage
+    cssclass: 'emmanuelGaillot'
   },
   {
     name: 'Jean-Philippe Gouigoux',
     subtitle: 'MGDIS',
-    image: JeanPhilippeGouigouxImage
+    cssclass: 'jeanPhilippeGouigoux'
   },
   {
     name: 'Marc Dugue',
     subtitle: 'Indépendant',
-    image: MarcDugueImage
+    cssclass: 'marcDugue'
   },
   {
     name: 'Vous ?',
     subtitle: '',
-    image: YouImage
+    cssclass: 'you'
   }
 ]

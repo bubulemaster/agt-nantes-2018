@@ -41,7 +41,7 @@ export default class Sponsor extends Component {
 				<SponsorsList sponsors={sponsorsList} />
 
 				<div class={style.beComeSponsor}>
-          <a class={[style.btn, style.btnBeComeSponsor].join(' ')} href="http://www.agilenantes.org/evenements/agile-tour-nantes/agile-tour-nantes-2018/">Devenir sponsor</a>
+          <a class={[style.btn, style.btnBeComeSponsor].join(' ')} href="./becomesponsor">Devenir sponsor</a>
         </div>
 			</section>
 		)

@@ -26,11 +26,11 @@
 
     .btnBeComeSponsor {
       color: #fff;
-      font-size: 1.5vw;
+      font-size: 1.5em;
       font-weight: 600;
-      padding:1vw 2vw;
+      padding: 16px 32px;
       border: 1px solid #ABCF4B;
-      margin-top: 1vw;
+      margin-top: 16px;
       background-color: #688222;
     }
 

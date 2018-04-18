@@ -13,7 +13,7 @@ import Footer from 'async!../footer'
 export default class Home extends Component {
 	render() {
 		return (
-			<div>
+			<span>
 				<Banner />
 				<Whatis />
 				<Map />
@@ -21,7 +21,7 @@ export default class Home extends Component {
 				<Sponsor />
 				<Buy />
 				<Footer />
-			</div>
+			</span>
 		)
 	}
 }

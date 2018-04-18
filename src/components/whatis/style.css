@@ -4,13 +4,13 @@
 }
 
     .agtDay {
-      margin: 0 1vw 0 1vw;
+      margin: 0 32px 0 32px;
     }
 
     .agtDay h2 {
       font-weight: bold;
       font-size: 1.5em;
-      padding-bottom: 5vh;
+      padding-bottom: 40px;
     }
 
     .agtDay1 {
@@ -34,7 +34,7 @@
     }
 
     .agtDayContent {
-      padding: 3vh 0 3vh 0;
+      padding: 15px 0 15px 0;
     }
 
     .whatisDay h3 {
@@ -46,7 +46,7 @@
       width: 140px;
       height: 140px;
       border-radius:50%;
-      margin: 2vh auto 2vh auto;
+      margin: 15px auto 15px auto;
       background-size: contain;
       background-position: center center;
       background-repeat: no-repeat;

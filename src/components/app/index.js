@@ -5,6 +5,7 @@ import './style'
 
 import Home from 'async!../home'
 import Credits from 'async!../credits'
+import BeComeSponsor from 'async!../becomesponsor'
 
 if (module.hot) {
 	require('preact/debug');
@@ -24,6 +25,7 @@ export default class App extends Component {
 			<Router onChange={this.handleRoute}>
 				<Home path="/" />
 				<Credits path="/credits" />
+				<BeComeSponsor path="/becomesponsor" />
 			</Router>
 		)
 	}

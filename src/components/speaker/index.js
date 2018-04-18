@@ -13,7 +13,7 @@ function OneSpeaker(props) {
 
 	return (
 		<div class={style.speaker}>
-			<div class={style.speakerImg} style={imageInlineStyle}></div>
+			<div class={[style.speakerImg, style[props.cssclass]].join(' ')}></div>
 			<div class={style.name}>{props.name}</div>
 			<div class={style.subtitle}>{props.subtitle}</div>
 		</div>
@@ -25,7 +25,7 @@ function SpeakersList(props) {
 
 	let listItems = []
 
-	speakers.forEach(speaker => listItems.push(<OneSpeaker name={speaker.name} subtitle={speaker.subtitle} image={speaker.image}/>))
+	speakers.forEach(speaker => listItems.push(<OneSpeaker name={speaker.name} subtitle={speaker.subtitle} cssclass={speaker.cssclass}/>))
 
   return (
 		<div class={['grid-3', style.speakerList].join(' ')}>

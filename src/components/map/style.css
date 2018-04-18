@@ -1,5 +1,5 @@
 #mapWithCursor {
-  min-height: 100vh;
+  min-height: 100%;
   position: relative;
   text-align: center;
   background-image: url(./images/map-with-cursor.png);
@@ -8,8 +8,8 @@
 
   #mapWithCursor div.blocknote {
     position: absolute;
-    top: 20vh;
-    left: 10vw;
+    top: 20%;
+    left: 10%;
     margin: 0;
     padding: 40px 40px 40px 40px;
     background-color: white;
