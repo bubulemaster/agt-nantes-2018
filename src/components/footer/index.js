@@ -20,8 +20,8 @@ export default class Footer extends Component {
 				<ul class={style.copyright}>
 					<li>&copy; Agile Nantes. Tous droits réservés.</li>
 					<li>Download <a href="https://github.com/bubulemaster/agt-nantes-2018">source code</a> of this website</li>
-					<li><a href="./credits">Crédits</a></li>
-					<li><a href="./becomesponsor">Devenir sponsor</a></li>
+					<li><a href="/credits">Crédits</a></li>
+					<li><a href="/becomesponsor">Devenir sponsor</a></li>
 				</ul>
 			</footer>
 		)
