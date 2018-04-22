@@ -63,3 +63,15 @@
     .masterclass {
       background-image: url('./images/masterclass.jpg');
     }
+
+    .lightning-talk {
+      background-image: url('./images/lightning-talk.jpg');
+    }
+
+    .rex {
+      background-image: url('./images/rex.jpg');
+    }
+
+    .conference {
+      background-image: url('./images/conference.jpg');
+    }

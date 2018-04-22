@@ -12,5 +12,19 @@ export default {
       cssclass: 'fishball',
       text: 'Fishball'
     }
+  ],
+  dayTwo: [
+    {
+      cssclass: 'conference',
+      text: 'Conférences'
+    },
+    {
+      cssclass: 'lightning-talk',
+      text: 'Lightning talk'
+    },
+    {
+      cssclass: 'rex',
+      text: 'Rex'
+    }
   ]
 }

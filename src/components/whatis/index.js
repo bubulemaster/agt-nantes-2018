@@ -52,7 +52,8 @@ export default class Whatis extends Component {
 						<div class={style.agtDayBackgroundOpacity}>
 							<div class={style.agtDayContent}>
 								<h2>Journée #2 : les sessions</h2>
-								TODO mettre quelques photos qui représente lighting talk, conférence
+
+								<WhatisList whatis={whatisList.dayTwo} />
 							</div>
 						</div>
 					</div>
