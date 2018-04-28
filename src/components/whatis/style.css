@@ -5,24 +5,15 @@
 
     .agtDay {
       margin: 0 32px 0 32px;
+      background-size: cover;
+      background-position: left top;
+      background-repeat: no-repeat;
     }
 
     .agtDay h2 {
       font-weight: bold;
       font-size: 1.5em;
       padding-bottom: 40px;
-    }
-
-    .agtDay1 {
-      background-image: url('./images/lego.jpg');
-      background-size: cover;
-      background-position: right top;
-      background-repeat: no-repeat;
-    }
-
-    .agtDay2 {
-      background-image: url('./images/event.jpg');
-      background-size: cover;
     }
 
     .agtDayBackgroundOpacity {
@@ -43,8 +34,6 @@
     }
 
     .whatisDayItem {
-      width: 140px;
-      height: 140px;
       border-radius:50%;
       margin: 15px auto 15px auto;
       background-size: contain;
@@ -75,3 +64,69 @@
     .conference {
       background-image: url('./images/conference.jpg');
     }
+
+
+@media (max-width: 468px) {
+  /* Phone */
+  .agtDay1 {
+    background-image: url('./images/lego-phone.jpg');
+  }
+
+  .agtDay2 {
+    background-image: url('./images/event-phone.jpg');
+    margin-top: 20px;
+  }
+
+  .whatisDayItem {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  /* Vertical pad */
+  .agtDay1 {
+    background-image: url('./images/lego-pad-vertical.jpg');
+  }
+
+  .agtDay2 {
+    background-image: url('./images/event-pad-vertical.jpg');
+  }
+
+  .whatisDayItem {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Horizontal pad */
+  .agtDay1 {
+    background-image: url('./images/lego-pad-horizontal.jpg');
+  }
+
+  .agtDay2 {
+    background-image: url('./images/event-pad-horizontal.jpg');
+  }
+
+  .whatisDayItem {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Laptop */
+  .agtDay1 {
+    background-image: url('./images/lego.jpg');
+  }
+
+  .agtDay2 {
+    background-image: url('./images/event.jpg');
+  }
+
+  .whatisDayItem {
+    width: 140px;
+    height: 140px;
+  }
+}

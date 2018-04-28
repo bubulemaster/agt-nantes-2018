@@ -1,31 +1,92 @@
-.timeline {
-  position: absolute;
-  top: 0px;
-  left: 10vw;
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  color: #3D3A33;
-  font-weight: bold;
+
+
+@media (max-width: 468px) {
+  /* Phone */
+  .timeline {
+    display: none;
+  }
 }
 
-.year {
-  background-color: #ABCF4B;
-  padding: 25% 25% 25% 25%;
-  margin: 0;
+@media (min-width: 468px) and (max-width: 767px) {
+  /* Vertical pad */
+  .timeline {
+    display: none;
+  }
 }
 
-.odd {
-  background-color: #688222;
-  color: #F9F9EF;
+@media (min-width: 768px) and (max-width: 1043px) {
+  /* Horizontal pad */
+  .timeline {
+    display: none;
+  }
 }
 
-.image {
-  display: block;
-  background-color: none;
-  background: url("./images/timeline-arrow.png");
-  background-position: left top;
-  background-size: contain;
-  background-repeat: no-repeat;
-  color: transparent;
+@media (min-width: 1044px) and (max-width: 1258px) {
+  /* Horizontal pad */
+  .timeline {
+    position: absolute;
+    top: 0px;
+    left: 2vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #3D3A33;
+    font-weight: bold;
+  }
+
+  .year {
+    background-color: #ABCF4B;
+    padding: 25% 25% 25% 25%;
+    margin: 0;
+  }
+
+  .odd {
+    background-color: #688222;
+    color: #F9F9EF;
+  }
+
+  .image {
+    display: block;
+    background-color: none;
+    background: url("./images/timeline-arrow.png");
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+  }
+}
+
+@media (min-width: 1259px) {
+  /* Laptop */
+  .timeline {
+    position: absolute;
+    top: 0px;
+    left: 10vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #3D3A33;
+    font-weight: bold;
+  }
+
+  .year {
+    background-color: #ABCF4B;
+    padding: 25% 25% 25% 25%;
+    margin: 0;
+  }
+
+  .odd {
+    background-color: #688222;
+    color: #F9F9EF;
+  }
+
+  .image {
+    display: block;
+    background-color: none;
+    background: url("./images/timeline-arrow.png");
+    background-position: left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+  }
 }

@@ -1,17 +1,10 @@
 #mapWithCursor {
-  min-height: 100%;
   position: relative;
   text-align: center;
-  background-image: url(./images/map-with-cursor.png);
   background-size: cover;
+  background-position: center top;
 }
-
   #mapWithCursor div.blocknote {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    margin: 0;
-    padding: 40px 40px 40px 40px;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
@@ -29,3 +22,53 @@
     float: right;
     font-size: 5em;
   }
+
+@media (max-width: 468px) {
+  /* Phone */
+  #mapWithCursor div.blocknote {
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  /* Vertical pad */
+  #mapWithCursor {
+    background-image: url(./images/map-with-cursor-pad-vertical.jpg);
+  }
+
+  #mapWithCursor div.blocknote {
+    margin: 0 20px 0 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Horizontal pad */
+  #mapWithCursor {
+    background-image: url(./images/map-with-cursor-pad-horizontal.jpg);
+    min-height: 100%;
+  }
+
+  #mapWithCursor div.blocknote {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    margin: 0;
+    padding: 40px 40px 40px 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Laptop */
+  #mapWithCursor {
+    min-height: 100%;
+    background-image: url(./images/map-with-cursor.jpg);
+  }
+
+  #mapWithCursor div.blocknote {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    margin: 0;
+    padding: 40px 40px 40px 40px;
+  }
+}

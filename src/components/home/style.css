@@ -1,13 +1,58 @@
 /* Common style  */
     header h1 {
       font-weight: bold;
-      font-size: 4em;
-      padding: 0 0 48px 0;
     }
 
 		section {
-		  position: relative;
-		  text-align: center;
+      position: relative;
+      text-align: center; 
 		  font-family: 'Open Sans', sans-serif;
-		  padding: 48px 0 48px 0;
 		}
+
+@media (max-width: 468px) {
+  /* Phone */
+  header h1 {
+    font-size: 2em;
+    padding: 0 0 24px 0;
+  }
+
+  section {
+    padding: 24px 0 24px 0;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  /* Vertical pad */
+  header h1 {
+    font-size: 3em;
+    padding: 0 0 36px 0;
+  }
+
+  section {
+    padding: 36px 0 36px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Horizontal pad */
+  header h1 {
+    font-size: 4em;
+    padding: 0 0 48px 0;
+  }
+
+  section {
+    padding: 48px 0 48px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Laptop */
+  header h1 {
+    font-size: 4em;
+    padding: 0 0 48px 0;
+  }
+
+  section {
+    padding: 48px 0 48px 0;
+  }
+}
