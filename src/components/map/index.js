@@ -19,8 +19,8 @@ export default class Map extends Component {
 					<p>Campus de Nantes</p>
 					<p>4, rue Alfred Kastler - La Chantrerie</p>
 					<p>44307 Nantes cedex 3</p>
-					<p>TODO horaire</p>
-					<p>TODO contact</p>
+					<p>&nbsp;</p>
+					08:30-17:45
 				</div>
 			</section>
 		)
