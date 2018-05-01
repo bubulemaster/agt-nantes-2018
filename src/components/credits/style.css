@@ -1,3 +1,28 @@
-.credits {
-  background-image: url(./images/photographer-bck.jpg);
+@media (max-width: 468px) {
+  /* Phone */
+  .credits {
+    background-image: url(./images/photographer-bck-phone.jpg);
+    height: 147px !important;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  /* Vertical pad */
+  .credits {
+    background-image: url(./images/photographer-bck-pad-vertical.jpg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Horizontal pad */
+  .credits {
+    background-image: url(./images/photographer-bck-pad-horizontal.jpg);
+  }
+}
+
+@media (min-width: 992px) {
+  /* Laptop */
+  .credits {
+    background-image: url(./images/photographer-bck.jpg);
+  }
 }

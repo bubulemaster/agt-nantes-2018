@@ -34,7 +34,7 @@
 
   .content ul {
     list-style-type: disc;
-    padding: 40px 0 40px 40px;
+    padding: 40px 0 40px 20px;
     line-height: 26px;
   }
 
@@ -52,3 +52,22 @@
     text-decoration: none;
     color: #688222;
   }
+
+@media (max-width: 468px) {
+  /* Phone */
+  .imageHeader h1 {
+    top: 10px !important;
+    left: 0px !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content {
+    padding: 10px 0 10px 10px;;
+  }
+
+  .content ul {
+    padding: 40px 0 40px 20px;
+    line-height: 26px;
+  }
+}

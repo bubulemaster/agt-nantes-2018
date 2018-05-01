@@ -1,3 +1,28 @@
-.becomesponsor {
-  background-image: url(./images/money-bck.jpg);
+@media (max-width: 468px) {
+  /* Phone */
+  .becomesponsor {
+    background-image: url(./images/money-bck-phone.jpg);
+    height: 147px !important;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  /* Vertical pad */
+  .becomesponsor {
+    background-image: url(./images/money-bck-pad-vertical.jpg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Horizontal pad */
+  .becomesponsor {
+    background-image: url(./images/money-bck-pad-horizontal.jpg);
+  }
+}
+
+@media (min-width: 992px) {
+  /* Laptop */
+  .becomesponsor {
+    background-image: url(./images/money-bck.jpg);
+  }
 }
