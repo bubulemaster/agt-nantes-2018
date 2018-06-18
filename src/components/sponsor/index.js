@@ -22,7 +22,7 @@ function SponsorsList(props) {
 	sponsors.forEach(sponsor => listItems.push(<OneSponsor cssclass={sponsor.cssclass} />))
 
   return (
-		<div class={grillage.autogrid}>
+		<div class={'grid-3'}>
     	{listItems}
 		</div>
   )
@@ -41,7 +41,7 @@ export default class Sponsor extends Component {
 				<SponsorsList sponsors={sponsorsList} />
 
 				<div class={style.beComeSponsor}>
-          <a class={[style.btn, style.btnBeComeSponsor].join(' ')} href="./becomesponsor">Devenir sponsor</a>
+          <a class={[style.btn, style.btnBeComeSponsor].join(' ')} href="/becomesponsor">Devenir sponsor</a>
         </div>
 			</section>
 		)

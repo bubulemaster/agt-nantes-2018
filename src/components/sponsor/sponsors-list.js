@@ -4,5 +4,14 @@ export default [
   },
   {
     cssclass: 'imt'
+  },
+  {
+    cssclass: 'infotel'
+  },
+  {
+    cssclass: 'fenikso'
+  },
+  {
+    cssclass: 'cnieg'
   }
 ]
