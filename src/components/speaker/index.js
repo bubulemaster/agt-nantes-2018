@@ -6,16 +6,32 @@ import grillage from '../grillade-grid'
 
 import speakerList from './speakers-list'
 
+// Font-Awesome
+import { faGlobe } from '@fortawesome/fontawesome-free-solid'
+import { faTwitter } from '@fortawesome/fontawesome-free-brands'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+
 function OneSpeaker(props) {
+	const speaker = props.speaker
+
 	const imageInlineStyle = {
-		backgroundImage: `url(${props.image})`
+		backgroundImage: `url(${speaker.image})`
 	}
 
 	return (
 		<div class={style.speaker}>
-			<div class={[style.speakerImg, style[props.cssclass]].join(' ')}></div>
-			<div class={style.name}>{props.name}</div>
-			<div class={style.subtitle}>{props.subtitle}</div>
+			<div class={[style.speakerImg, style[speaker.cssclass]].join(' ')}></div>
+			<div class={style.name}>{speaker.name}</div>
+			<div class={style.subtitle}>{speaker.subtitle}
+				<span class={style.icons}>
+					{speaker.twitter &&
+						<a href={speaker.twitter}><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+					}
+					{speaker.web &&
+						<a href={speaker.web}><FontAwesomeIcon icon={["fas", "globe"]} /></a>
+					}
+				</span>
+			</div>
 		</div>
 	)
 }
@@ -25,7 +41,7 @@ function SpeakersList(props) {
 
 	let listItems = []
 
-	speakers.forEach(speaker => listItems.push(<OneSpeaker name={speaker.name} subtitle={speaker.subtitle} cssclass={speaker.cssclass}/>))
+	speakers.forEach(speaker => listItems.push(<OneSpeaker speaker={speaker}/>))
 
   return (
 		<div class={['grid-3', style.speakerList].join(' ')}>

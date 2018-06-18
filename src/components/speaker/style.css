@@ -29,6 +29,21 @@
       color: #ABCF4B;
     }
 
+    .speaker .icons {
+      margin: 5px 0 0 10px;
+      color: #F9F9EF;
+    }
+
+    .speaker .icons a:hover {
+      color: #688222;
+    }
+
+    .speaker .icons a {
+      text-decoration: none;
+      color: inherit;
+      margin-left: 5px;
+    }
+
     .alexandreBoutin {
       background-image: url('./images/speakers/alexandre_boutin.jpg');
     }
@@ -51,6 +66,10 @@
 
     .marcDugue {
       background-image: url('./images/speakers/marc_dugue.jpg');
+    }
+
+    .axelVillechalane {
+      background-image: url('./images/speakers/axel_villechalane.jpg');
     }
 
     .you {
