@@ -47,6 +47,13 @@ export default [
     cssclass: 'marcDugue'
   },
   {
+    name: 'Maxime Sanglan',
+    subtitle: 'One Hundred Acorns',
+    web: 'http://onehundredacorns.com/',
+    twitter: 'https://twitter.com/__MaxS__',
+    cssclass: 'maximeSanglan'
+  },
+  {
     name: 'Vous ?',
     subtitle: '',
     cssclass: 'you'
