@@ -54,6 +54,13 @@ export default [
     cssclass: 'maximeSanglan'
   },
   {
+    name: 'Arnaud Bailly',
+    subtitle: 'Symbiont / Aleryo',
+    web: 'https://symbiont.io',
+    twitter: 'https://twitter.com/dr_c0d3',
+    cssclass: 'arnaudBailly'
+  },
+  {
     name: 'Vous ?',
     subtitle: '',
     cssclass: 'you'
