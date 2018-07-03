@@ -6,12 +6,11 @@ export default [
     twitter: 'https://twitter.com/agilex',
     cssclass: 'alexandreBoutin'
   },
-  /*
   {
     name: 'Cédric Bodin',
     subtitle: 'Fenikso',
     cssclass: 'cedricBodin'
-  },*/
+  },
   {
     name: 'Axel Villechalane',
     subtitle: 'Fenikso',
