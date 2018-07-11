@@ -1,17 +1,26 @@
 export default [
   {
-    cssclass: 'gfi'
+    cssclass: 'gfi',
+    web: 'https://www.gfi.world'
   },
   {
-    cssclass: 'imt'
+    cssclass: 'imt',
+    web: 'www.imt-atlantique.fr'
   },
   {
-    cssclass: 'infotel'
+    cssclass: 'infotel',
+    web: 'https://www.infotel.com'
   },
   {
-    cssclass: 'fenikso'
+    cssclass: 'fenikso',
+    web: 'https://www.fenikso.fr'
   },
   {
-    cssclass: 'cnieg'
+    cssclass: 'cnieg',
+    web: 'https://www.cnieg.fr'
+  },
+  {
+    cssclass: 'kanoma',
+    web: 'https://www.kanoma.fr'
   }
 ]

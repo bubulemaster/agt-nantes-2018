@@ -53,6 +53,7 @@
       background-size: contain;
       background-position: center center;
       background-repeat: no-repeat;
+      display: block;
     }
 
     .gfi {
@@ -72,5 +73,9 @@
     }
 
     .cnieg {
-      background-image: url('./images/sponsors/cnieg-test.png');
+      background-image: url('./images/sponsors/cnieg.png');
+    }
+
+    .kanoma {
+      background-image: url('./images/sponsors/kanoma.png');
     }

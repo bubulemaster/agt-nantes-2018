@@ -8,8 +8,8 @@ import sponsorsList from './sponsors-list'
 function OneSponsor(props) {
 	return (
     <div>
-  		<div class={[style[props.cssclass], style.sponsorLogo].join(' ')}>
-  		</div>
+  		<a class={[style[props.cssclass], style.sponsorLogo].join(' ')} href={props.web}>
+  		</a>
     </div>
 	)
 }
@@ -19,7 +19,7 @@ function SponsorsList(props) {
 
 	let listItems = []
 
-	sponsors.forEach(sponsor => listItems.push(<OneSponsor cssclass={sponsor.cssclass} />))
+	sponsors.forEach(sponsor => listItems.push(<OneSponsor cssclass={sponsor.cssclass} web={sponsor.web}/>))
 
   return (
 		<div class={'grid-3'}>
