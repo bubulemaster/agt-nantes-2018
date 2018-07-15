@@ -22,5 +22,9 @@ export default [
   {
     cssclass: 'kanoma',
     web: 'https://www.kanoma.fr'
+  },
+  {
+    cssclass: 'knp',
+    web: 'https://knplabs.com/fr'
   }
 ]
