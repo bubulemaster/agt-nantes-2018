@@ -26,5 +26,9 @@ export default [
   {
     cssclass: 'knp',
     web: 'https://knplabs.com/fr'
+  },
+  {
+    cssclass: 'azeo',
+    web: 'https://www.azeo.com'
   }
 ]

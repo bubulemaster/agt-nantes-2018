@@ -58,10 +58,5 @@ export default [
     web: 'https://symbiont.io',
     twitter: 'https://twitter.com/dr_c0d3',
     cssclass: 'arnaudBailly'
-  },
-  {
-    name: 'Vous ?',
-    subtitle: '',
-    cssclass: 'you'
   }
 ]
