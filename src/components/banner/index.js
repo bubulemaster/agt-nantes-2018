@@ -10,8 +10,6 @@ export default class Banner extends Component {
 	render() {
 		return (
 			<section id={style.banner}>
-			  <Timeline />
-
 		    <div class={style.content}>
 		      <header>
 		        <h1>Les 8 et 9 Novembre 2018</h1>
