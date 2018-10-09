@@ -9,6 +9,8 @@ export default [
   {
     name: 'Cédric Bodin',
     subtitle: 'Fenikso',
+    web: 'https://www.fenikso.fr',
+    twitter: 'https://twitter.com/cedricbodin',
     cssclass: 'cedricBodin'
   },
   {
@@ -46,7 +48,7 @@ export default [
     cssclass: 'marcDugue'
   },
   {
-    name: 'Maxime Sanglan',
+    name: 'Maxime Sanglan-Charlier',
     subtitle: 'One Hundred Acorns',
     web: 'http://onehundredacorns.com/',
     twitter: 'https://twitter.com/__MaxS__',

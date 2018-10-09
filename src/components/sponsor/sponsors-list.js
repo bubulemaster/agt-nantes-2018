@@ -30,5 +30,13 @@ export default [
   {
     cssclass: 'azeo',
     web: 'https://www.azeo.com'
+  },
+  {
+    cssclass: 'conserto',
+    web: 'https://conserto.pro'
+  },
+  {
+    cssclass: 'cbp',
+    web: 'https://www.cbp-group.com'
   }
 ]
