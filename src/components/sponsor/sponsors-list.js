@@ -38,5 +38,9 @@ export default [
   {
     cssclass: 'cbp',
     web: 'https://www.cbp-group.com'
+  },
+  {
+    cssclass: 'rca',
+    web: 'https://rca.fr/'
   }
 ]
