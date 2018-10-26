@@ -27,11 +27,11 @@ export default class Banner extends Component {
 							Participants
 						</div>
 						<div>
-							<CountUp start={0} end={25} redraw={true} duration={5} className={style.counter} /> <br />
-							Conférences
+							<CountUp start={0} end={42} redraw={true} duration={5} className={style.counter} /> <br />
+							Sessions
 						</div>
 						<div>
-							<CountUp start={0} end={50} redraw={true} duration={4} className={style.counter} /> <br />
+							<CountUp start={0} end={48} redraw={true} duration={4} className={style.counter} /> <br />
 							Présentateurs
 						</div>
 					</div>
