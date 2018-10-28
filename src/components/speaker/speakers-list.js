@@ -196,8 +196,8 @@ export default [
   },
   {
     name: 'Fréderic Dufau-Joël',
-    subtitle: 'Indépendant',
-    web: '',
+    subtitle: 'La boîte à outils',
+    web: 'http://www.la-bao.fr',
     twitter: 'https://twitter.com/fdufaujoel',
     cssclass: 'fredericDufau-joel'
   },
@@ -252,8 +252,8 @@ export default [
   },
   {
     name: 'Raphaël Geneteix',
-    subtitle: '',
-    web: '',
+    subtitle: 'Daveo',
+    web: 'https://daveo.fr',
     twitter: 'https://twitter.com/raphaelgeneteix',
     cssclass: 'raphaelGeneteix'
   },
