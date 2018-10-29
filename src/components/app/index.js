@@ -6,6 +6,7 @@ import './style'
 import Home from 'async!../home'
 import Credits from 'async!../credits'
 import BeComeSponsor from 'async!../becomesponsor'
+import SpeakerPresentation from 'async!../speaker-presentation'
 
 if (module.hot) {
 	require('preact/debug');
@@ -26,6 +27,7 @@ export default class App extends Component {
 				<Home path="/" />
 				<Credits path="/credits" />
 				<BeComeSponsor path="/becomesponsor" />
+				<SpeakerPresentation path="/speakers" />
 			</Router>
 		)
 	}

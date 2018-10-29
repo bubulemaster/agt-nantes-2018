@@ -1,5 +1,5 @@
 import { Component } from 'preact'
-
+import { sampleSize } from 'lodash'
 import style from './style'
 
 import grillage from '../grillade-grid'
@@ -11,12 +11,9 @@ import { faGlobe } from '@fortawesome/fontawesome-free-solid'
 import { faTwitter } from '@fortawesome/fontawesome-free-brands'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
-function OneSpeaker(props) {
+export function OneSpeaker(props) {
 	const speaker = props.speaker
-
-	const imageInlineStyle = {
-		backgroundImage: `url(${speaker.image})`
-	}
+	const style = props.style
 
 	return (
 		<div class={style.speaker}>
@@ -37,15 +34,19 @@ function OneSpeaker(props) {
 }
 
 function SpeakersList(props) {
-  const speakers = props.speakers
+  const speakers = sampleSize(props.speakers, 8)
 
 	let listItems = []
 
-	speakers.forEach(speaker => listItems.push(<OneSpeaker speaker={speaker}/>))
+	speakers.forEach(speaker => listItems.push(<OneSpeaker speaker={speaker} style={style}/>))
 
   return (
 		<div class={['grid-3', style.speakerList].join(' ')}>
     	{listItems}
+			<div class={[style.speaker, style.speakersList].join(' ')}>
+				<div class={style.speakerImg}></div>
+				<a href="/speakers">Liste complète des présentateurs</a>
+			</div>
 		</div>
   )
 }

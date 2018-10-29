@@ -44,6 +44,20 @@
       margin-left: 5px;
     }
 
+    .speakersList {
+      vertical-align: middle;
+    }
+
+    .speakersList a, .speakersList a:visited {
+      color: #ABCF4B;
+      text-decoration: dotted underline;
+    }
+
+    .speakersList a:hover {
+      text-decoration: none;
+      color: #ABCF4B;
+    }
+
     .alexandreBoutin {
       background-image: url('./images/speakers/alexandre_boutin.jpg');
     }
@@ -56,8 +70,8 @@
       background-image: url('./images/speakers/christophe_addinquy.jpg');
     }
 
-    .emmanuelGaillot {
-      background-image: url('./images/speakers/emmanuel_gaillot.jpg');
+    .raphaelPierquin {
+      background-image: url('./images/speakers/raphael.pierquin.png');
     }
 
     .jeanPhilippeGouigoux {
