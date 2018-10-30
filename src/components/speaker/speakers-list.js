@@ -377,11 +377,13 @@ export default [
     subtitle: 'SII',
     twitter: 'https://twitter.com/sandrinezuk',
     web: 'http://www.groupe-sii.com',
+    cssclass: 'sandrineZuk',
     bio: "Il y a fort fort lointain, j'ai atterri en ESN et depuis je me suis enrichie et épanouie sur cette nouvelle terre.\nJ'ai démarré par le commencement, la magie du développement Cobol, une ère oubliée mais pourtant toujours présente dans notre atmosphère. Et voulant continuer à enrichir mon thesaurus, je me suis ensuite téléportée vers l'analyste fonctionnel pour muter chef de projet. Mais au bout de plusieurs années, j'ai eu envie de passer du côté obscur de la force. Et c'est là, dans un moment d'égarement heureux, j'ai débarqué chez SII pour devenir assistant de maitrise d'ouvrage.\n\nDepuis, je navigue sur plusieurs flots de projets et je suis spécialisée dans le sort de l'agilité. Ce sort étant tellement puissant car il faut surtout de beaucoup de bon sens, de bienveillance, de transparence, d'authenticité, de probité et d'humanité. Des valeurs essentielles pour m'émerveiller au travail.\n\nEt, pour me permettre de m'enrichir au-delà de cette nouvelle terre, j'ai trouvé des îles de bénévolats dans l'agile Nantes et le don du sang. Ces petites îles ont été envahies par la magie de l'agilité. Elles sont très attachées à mes valeurs et me permettent de m'améliorer dans un autre environnement sur les mêmes talents.\n\nLes sorts que je préfère pratiquer sont l'organisationnel, l'échange, la recherche, la prise de recul et la communication, ils me permettent de générer mon énergie vitale, souvent débordante mais positive."
   },
   {
     name: 'Kervin Kueny',
     subtitle: 'GFI',
+    cssclass: 'kervinKueny',
     web: 'https://www.gfi.world',
     twitter: 'https://twitter.com/kervinkueny',
     bio: "Curieux par nature, couteau suisse à mes heures, j'accompagne mes clients dans la tempête du changement. C'est pas toujours facile, et cela apporte, aussi beaucoup de moments sympas. Une citation que j'affectionne : L'habitude, c'est l'économie du cerveau !"
