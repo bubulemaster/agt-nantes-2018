@@ -132,7 +132,7 @@ export default [
     web: 'http://knplabs.com',
     twitter: 'https://twitter.com/cecile_especel',
     cssclass: 'cecileEspecel',
-    bio: "Chez Knp Labs, j'accompagne, je soutiens, je motive nos Happy Awesome Developers et nos Supers Clients.\n\nPour cela j'applique les principes du manifeste agile le plus possible et j'utilise les outils de l'intelligence collaborative.\nPour activer la compatibilité avec le lecteur d'écran, appuyez sur Ctrl+Alt+Z Pour connaître les raccourcis clavier, appuyez sur Ctrl+barre oblique"
+    bio: "Chez Knp Labs, j'accompagne, je soutiens, je motive nos Happy Awesome Developers et nos Supers Clients.\n\nPour cela j'applique les principes du manifeste agile le plus possible et j'utilise les outils de l'intelligence collaborative."
   },
   {
     name: 'Cécilia Bossard',
@@ -244,7 +244,7 @@ export default [
     web: 'http://www.agilegarden.fr',
     twitter: 'https://twitter.com/gregoirerobin',
     cssclass: 'gregoireRobin',
-    bio: "Il aime...\nLe débat et les moments d'échanges, le vélo et sa philosophie, le vin et sa philosophie, le jeu sous toutes ses formes.\nSes bottes secrètes...\nLa conception et la facilitation de temps collectifs à la fois ludiques et porteurs de sens, le management 3.0 sous toutes ses coutures.\nSon style d'animation...\nConvivial et entraînant, participatif et créateur de lien, à l'écoute pour répondre aux besoins du groupe.\nCe qui compte pour lui...\nL'attention, la bienveillance, le rythme, le choix des mots et la qualité des relations.\nSa citation préférée...\n“Impose ta chance, serre ton bonheur et va vers ton risque. A te regarder, ils s'habitueront.” – René Char\nPour activer la compatibilité avec le lecteur d'écran, appuyez sur Ctrl+Alt+Z Pour connaître les raccourcis clavier, appuyez sur Ctrl+barre oblique"
+    bio: "Il aime...\nLe débat et les moments d'échanges, le vélo et sa philosophie, le vin et sa philosophie, le jeu sous toutes ses formes.\nSes bottes secrètes...\nLa conception et la facilitation de temps collectifs à la fois ludiques et porteurs de sens, le management 3.0 sous toutes ses coutures.\nSon style d'animation...\nConvivial et entraînant, participatif et créateur de lien, à l'écoute pour répondre aux besoins du groupe.\nCe qui compte pour lui...\nL'attention, la bienveillance, le rythme, le choix des mots et la qualité des relations.\nSa citation préférée...\n“Impose ta chance, serre ton bonheur et va vers ton risque. A te regarder, ils s'habitueront.” – René Char"
   },
   {
     name: 'Nathaniel Richand',
