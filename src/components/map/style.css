@@ -23,6 +23,10 @@
     font-size: 5em;
   }
 
+  #mapWithCursor .parking {
+    font-weight: bold;
+  }
+
 @media (max-width: 468px) {
   /* Phone */
   #mapWithCursor div.blocknote {

@@ -20,7 +20,8 @@ export default class Map extends Component {
 					<p>4, rue Alfred Kastler - La Chantrerie</p>
 					<p>44307 Nantes cedex 3</p>
 					<p>&nbsp;</p>
-					08:30-17:45
+					<p>08:30-17:45</p>
+					<p class={style.parking}>Stationnement au parking+relais tram Atlanpole</p>
 				</div>
 			</section>
 		)
