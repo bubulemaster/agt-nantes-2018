@@ -46,7 +46,7 @@ function SpeakersTable(props) {
 export default class SpeakerPresentation extends Component {
 	render() {
 		return (
-			<ExtraPage title="Liste des présentateurs" headerClass={style.speakerpresentation}>
+			<ExtraPage title="Liste des speakers" headerClass={style.speakerpresentation}>
 				<SpeakersTable speakers={speakerList} />
 			</ExtraPage>
 		)
