@@ -1,6 +1,7 @@
 import { Component } from 'preact'
 
 import style from './style'
+import btnStyle from '../btn'
 
 import grillage from '../grillade-grid'
 
@@ -57,6 +58,10 @@ export default class Whatis extends Component {
 							</div>
 						</div>
 					</div>
+				</div>
+
+				<div class={style.schedule}>
+					<a class={[btnStyle.btn, style.btnSchedule].join(' ')} href="/schedule">Programme complet</a>
 				</div>
 			</section>
 		)

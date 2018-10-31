@@ -1,0 +1,21 @@
+.btn {
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  -o-border-radius:4px;
+  -ms-border-radius:4px;
+  -khtml-border-radius:4px;
+  border-radius:4px;
+
+  padding-bottom:14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 14px;
+
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  font-family: "Open Sans", sans-serif;
+}

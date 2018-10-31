@@ -1,0 +1,84 @@
+@media (max-width: 468px) {
+  /* Phone */
+  .speakerpresentation {
+    background-image: url(./images/schedule-bck-phone.jpg);
+    height: 147px !important;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 767px) {
+  /* Vertical pad */
+  .speakerpresentation {
+    background-image: url(./images/schedule-bck-pad-vertical.jpg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Horizontal pad */
+  .speakerpresentation {
+    background-image: url(./images/schedule-bck-pad-horizontal.jpg);
+  }
+}
+
+@media (min-width: 992px) {
+  /* Laptop */
+  .speakerpresentation {
+    background-image: url(./images/schedule-bck.jpg);
+  }
+}
+
+  .schedule {
+    margin-top: 15px;
+  }
+
+  .schedule .nameRoom {
+    background-color: #3D3A33;
+    color: #F9F9EF;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5em;
+  }
+
+  .schedule .session {
+    background-color: #F9F9EF;
+  }
+
+  .schedule .session .name {
+    color: #000000;
+    background-color: #BDB29E;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .schedule .session .abstract {
+    width: 100%;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    margin:  15px 15px 15px 15px;
+  }
+
+  .schedule .session .infos {
+    padding: 15px 15px 15px 15px;
+    line-height: 140%;
+  }
+
+  .schedule .session .title {
+    font-weight: bold;
+  }
+
+  .day {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #688222;
+    color: #F9F9EF;
+    font-weight: bold;
+    font-size: 2em;
+  }

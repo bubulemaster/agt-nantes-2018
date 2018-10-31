@@ -3,6 +3,27 @@
   color: #F9F9EF;
 }
 
+    .btnSchedule {
+      color: #F9F9EF;
+      font-size: 1.5em;
+      font-weight: 600;
+      padding: 16px 32px;
+      border: 1px solid #BDB29E;
+      margin-top: 16px;
+      background-color: #3D3A33;
+    }
+
+    .btnSchedule:hover {
+      color: #3D3A33;
+      background-color: #F9F9EF;
+      border: 1px solid #3D3A33;
+      transition: 300ms;
+    }
+
+    .schedule {
+      margin-top: 50px;
+    }
+
     .agtDay {
       margin: 0 32px 0 32px;
       background-size: cover;

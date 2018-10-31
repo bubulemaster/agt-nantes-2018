@@ -1,6 +1,7 @@
 import { Component } from 'preact'
 
 import style from './style'
+import btnStyle from '../btn'
 import grillage from '../grillade-grid'
 
 import sponsorsList from './sponsors-list'
@@ -41,7 +42,7 @@ export default class Sponsor extends Component {
 				<SponsorsList sponsors={sponsorsList} />
 
 				<div class={style.beComeSponsor}>
-          <a class={[style.btn, style.btnBeComeSponsor].join(' ')} href="/becomesponsor">Devenir sponsor</a>
+          <a class={[btnStyle.btn, style.btnBeComeSponsor].join(' ')} href="/becomesponsor">Devenir sponsor</a>
         </div>
 			</section>
 		)
