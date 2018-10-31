@@ -1,6 +1,7 @@
 import { Component } from 'preact'
 import { sampleSize } from 'lodash'
 import style from './style'
+import btnStyle from '../btn'
 
 import grillage from '../grillade-grid'
 
@@ -45,7 +46,9 @@ function SpeakersList(props) {
     	{listItems}
 			<div class={[style.speaker, style.speakersList].join(' ')}>
 				<div class={style.speakerImg}></div>
-				<a href="/speakers">Liste complète des présentateurs</a>
+				<div>
+					<a class={[btnStyle.btn, style.btnSpeakers].join(' ')} href="/speakers">Liste des speakers</a>
+				</div>
 			</div>
 		</div>
   )
