@@ -30,7 +30,12 @@ function SpeakerLine(props) {
 }
 
 function SpeakersTable(props) {
-  const speakers = props.speakers
+  const speakers = props.speakers.sort((a, b) => {
+		let speakerName1 = a.name.split(' ')[1].trim()
+		let speakerName2 = b.name.split(' ')[1].trim()
+
+		return speakerName1.localeCompare(speakerName2)
+	})
 
 	let listItems = []
 
