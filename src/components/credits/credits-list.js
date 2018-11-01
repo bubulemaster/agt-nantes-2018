@@ -13,5 +13,6 @@ export default [
   'https://pixabay.com/fr/art-oratoire-haut-parleur-l-homme-3159217/',
   'https://pixabay.com/fr/afro-am%C3%A9ricain-afrique-conseil-3155852/',
   'https://pixabay.com/fr/smartphone-technique-de-appareils-3329994/',
-  'https://pixabay.com/fr/microphone-la-parole-conf%C3%A9rences-2316268/'
+  'https://pixabay.com/fr/microphone-la-parole-conf%C3%A9rences-2316268/',
+  'https://pixabay.com/fr/planificateur-de-jour-calendrier-828611/'
 ]

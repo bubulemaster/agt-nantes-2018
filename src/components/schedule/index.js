@@ -69,7 +69,7 @@ function ScheduleTable(props) {
 	))
 
   return (
-		<div class='grid-6'>
+		<div class='grid-6 has-gutter'>
 			{listRooms}
 		</div>
   )
