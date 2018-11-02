@@ -3,8 +3,6 @@ import { sampleSize } from 'lodash'
 import style from './style'
 import btnStyle from '../btn'
 
-import grillage from '../grillade-grid'
-
 import speakerList from './speakers-list'
 
 // Font-Awesome

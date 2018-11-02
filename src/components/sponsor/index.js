@@ -2,7 +2,6 @@ import { Component } from 'preact'
 
 import style from './style'
 import btnStyle from '../btn'
-import grillage from '../grillade-grid'
 
 import sponsorsList from './sponsors-list'
 
