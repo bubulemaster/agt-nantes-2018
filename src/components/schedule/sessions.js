@@ -33,7 +33,7 @@ export default [
       level: 0,
       spectator: [1, 2, 3],
       duration: 110,
-      time: '13h30 - 15h20',
+      time: '13h40 - 15h30',
       room: 0
     },
     {
@@ -82,7 +82,7 @@ export default [
       level: 0,
       spectator: [4, 1, 2, 5, 3, 6],
       duration: 50,
-      time: '13h30 - 14h20',
+      time: '13h40 - 14h30',
       room: 1
     },
     {
@@ -95,7 +95,7 @@ export default [
       level: 0,
       spectator: [4, 1, 2, 5, 3, 6],
       duration: 170,
-      time: '14h30 - 17h35',
+      time: '14h40 - 17h35',
       room: 1
     },
     {
@@ -131,7 +131,7 @@ export default [
       level: 0,
       spectator: [4, 1, 2, 3],
       duration: 170,
-      time: '14h30 - 17h35',
+      time: '14h40 - 17h35',
       room: 2
     },
     {
@@ -158,7 +158,7 @@ export default [
       level: 0,
       spectator: [4, 1, 2, 5, 3, 6],
       duration: 50,
-      time: '13h30 - 14h20',
+      time: '13h40 - 14h30',
       room: 3
     },
     {
@@ -171,7 +171,7 @@ export default [
       level: 0,
       spectator: [0],
       duration: 50,
-      time: '14h30 - 15h20',
+      time: '14h40 - 15h30',
       room: 3
     },
     {
@@ -209,7 +209,7 @@ export default [
       level: 0,
       spectator: [0],
       duration: 50,
-      time: '13h30 - 14h20',
+      time: '13h40 - 14h30',
       room: 4
     },
     {
@@ -221,7 +221,7 @@ export default [
       level: 0,
       spectator: [0],
       duration: 50,
-      time: '14h30 - 15h20',
+      time: '14h40 - 15h30',
       room: 4
     },
     {

@@ -3,6 +3,7 @@ import { Component } from 'preact'
 import ExtraPage from 'async!../extrapage'
 
 import style from './style'
+import grillage from '../grillade-grid'
 
 import schedule from './sessions'
 import level from './level'
@@ -38,8 +39,8 @@ function ScheduleOneRoom(props) {
 		listSession.push(
 			<div class={style.session}>
 				<p class={style.name}>{s.name}</p>
-				<pre class={style.abstract}>{s.abstract}</pre>
 				<p class={style.infos}>
+				  <pre class={style.abstract}>{s.abstract}</pre>
 					<span class={style.title}>Speaker(s):</span> {speakers}<br />
 					<span class={style.title}>Niveau:</span> {props.level[s.level]}<br />
 					<span class={style.title}>Public:</span> {spectators}<br />
@@ -69,7 +70,7 @@ function ScheduleTable(props) {
 	))
 
   return (
-		<div class='grid-6 has-gutter'>
+		<div class={['grid-6', grillage['has-gutter']].join(' ')}>
 			{listRooms}
 		</div>
   )
