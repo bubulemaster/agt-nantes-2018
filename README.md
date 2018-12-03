@@ -12,7 +12,7 @@ This project is build using:
 ## How it's build
 
 This site is build around webcomponent that you can found in `src/components`:
- * `app` is main application that conatain all components. This is the main padding-left
+ * `app` is main application that contain all components. This is the main padding-left
  * `banner` is the first section, the landing page
  * `buy` is section that contain howto buy a ticket
  * `footer` is the footer of web page
@@ -22,7 +22,7 @@ This site is build around webcomponent that you can found in `src/components`:
  * `timeline` is subpart of `banner` page. It's specifically for Agt Nantes 2018
  * `whatis` is where you explain what is your event
  * `credits` is where you add mention for photo or other copyright
- * `becomesponsor` is page to be come a sponsor
+ * `becomesponsor` is page to become a sponsor
  * `extrapage` common component use by credits and becomesponsor components
 
 ## Speakers section
